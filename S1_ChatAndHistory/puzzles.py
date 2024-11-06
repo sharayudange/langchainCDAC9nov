@@ -3,7 +3,7 @@ import sys
 import langchain
 # import langchain_cohere
 import cohere.types
-os.environ["COHERE_API_KEY"] = "c2G4fV4JXe0ZTfKc0YhrUToGIrfz8b2zbR9YGlMm"
+os.environ["COHERE_API_KEY"] = "Your API key"
 
 from langchain_cohere import ChatCohere
 

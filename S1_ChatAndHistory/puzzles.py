@@ -32,6 +32,11 @@ def puzzles(puzzleName):
         return """A woman opened a door, screamed and was found dead a few minutes later. 
         No gunshots were heard in the area. 
         What happened to her?"""
+    elif puzzleName == "mysteryKey":
+        return """A man was found dead in a locked room with no signs of a struggle. 
+        There was a key on the floor next to him, but the door was still locked from the inside. 
+        How did he die?"""
+    
     else:
         return """Four men, one of whom was known to have committed a certain crime, 
         made the following statements when questioned by the police:
